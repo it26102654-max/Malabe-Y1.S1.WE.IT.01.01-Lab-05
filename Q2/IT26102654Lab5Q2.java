@@ -1,15 +1,17 @@
-
 import java.util.Scanner;
 
-public class ITxxxxxxxxLab5Q2 {
+public class IT26102654Lab5Q2 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the number of new members introduced: ");
-        int members = input.nextInt();
+        int members;
+
+        System.out.print("Enter the number of new members: ");
+        members = input.nextInt();
 
         if (members < 0) {
-            System.out.println("Invalid number of new members!");
+            System.out.println("Invalid number of members!");
         } else {
             switch (members) {
                 case 0:
